@@ -10,7 +10,7 @@ Projeto desenvolvido como desafio do **Bootcamp Santander 2025 (Front-End)**, co
   <img src="assets/images/image.png" alt="Preview da Landing Page" width="80%">
 </p>
 
-> 💡 *Dica:* tire um print do seu projeto e salve como `preview.png` dentro de `assets/images`
+
 
 ---
 
