@@ -1,0 +1,167 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== BASE ===== */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(180deg, #000 0%, #00111f 100%);
+  color: #fff;
+  line-height: 1.5;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* ===== HEADER ===== */
+.banner {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background-image: url('images/banner.png');
+  background-size: cover;
+  background-position: center;
+}
+.banner-content {
+  max-width: 700px;
+}
+
+.logo img {
+  width: 90px;
+  margin-bottom: 20px;
+}
+
+.banner h1 {
+  font-size: 42px;
+  color: #00d4ff;
+  margin-bottom: 15px;
+}
+
+.banner p {
+  color: #ccc;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+/* botão */
+.banner button {
+  padding: 12px 30px;
+  border: 2px solid #00d4ff;
+  background: transparent;
+  color: #00d4ff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.banner button:hover {
+  background: #00d4ff;
+  color: #000;
+}
+
+/* ===== CURSO ===== */
+#course-content {
+  text-align: center;
+}
+
+#course-content h2 {
+  color: #00d4ff;
+  margin-bottom: 10px;
+}
+
+#course-content p {
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.modules-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.module {
+  background: #111;
+  padding: 15px;
+  border: 1px solid rgba(0, 212, 255, 0.3);
+  text-align: center;
+}
+
+.module span {
+  color: #00d4ff;
+  font-weight: bold;
+}
+
+/* ===== TRANSFORM ===== */
+#transform-world {
+  margin: 50px 0;
+  padding: 40px;
+  background: #000;
+  text-align: center;
+}
+
+#transform-world p {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* ===== PROFESSIONAL ===== */
+#professional-challenges {
+  text-align: center;
+}
+
+#professional-challenges h2 {
+  color: #00d4ff;
+  margin-bottom: 15px;
+}
+
+#professional-challenges img {
+  max-width: 100%;
+  margin: 20px 0;
+}
+
+#professional-challenges p {
+  color: #aaa;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background: #000;
+  border-top: 1px solid rgba(0, 212, 255, 0.3);
+  padding: 30px;
+  text-align: center;
+}
+
+footer img {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #00d4ff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* ===== RESPONSIVO ===== */
+@media (max-width: 600px) {
+  .banner h1 {
+    font-size: 28px;
+  }
+
+  .banner p {
+    font-size: 16px;
+  }
+}
